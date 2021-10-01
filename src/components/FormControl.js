@@ -168,7 +168,7 @@ const[data,setData] = useState('');
 async function FetchEntity() {
 setError(null)
 try {
-  const Response = await fetch('https://jsonpaceholder.typicode.com/posts', {
+  const Response = await fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     body: JSON.stringify({
       title: enteredObject.title,
